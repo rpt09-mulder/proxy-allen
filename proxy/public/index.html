@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>FEC Demo</title>
+  </head>
+  <body>
+    <div>
+      Hi the proxy is being served
+      test
+    </div>
+    <div id="Details"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:3001/bundle.js"></script>
+    <!-- <script type="text/javascript" src="bundle.js"></script> -->
+    <script>
+      ReactDOM.render(
+        React.createElement(DetailsApp),
+        document.getElementById('Details')
+      );
+    </script>
+  </body>
+</html>
