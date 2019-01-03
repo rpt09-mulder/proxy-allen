@@ -10,14 +10,14 @@ html, body{
   background: grey;
 }
 
-#description{
+#details{
   background:rgb(255, 146, 146);
-  height: 300px;
+  /* height: 300px; */
 }
 
 #reviews{
   background:rgb(154, 230, 253);
-  height: 600px;
+  /* height: 600px; */
 }
 
 #booking{
