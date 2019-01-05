@@ -15,7 +15,6 @@ html, body {
 }
 
 #gallery {
-  height: 592px;
   width: 100%;
   background: grey;
   display: block;
