@@ -20,13 +20,10 @@ html, body {
   display: block;
 }
 
-#booking {
-  position: fixed;
-  top: 420px;
-  right: 1.75%;
-  height: 250px;
-  width: 30%;
-  padding: 0;
+#booking{
+  position: absolute;
+  right: 0;
+  top: 650px;
 }
 
 @media(max-width: 1200px){
