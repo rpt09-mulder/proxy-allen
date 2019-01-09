@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/rpt09-mulder/gallery
+  - https://github.com/rpt09-mulder/rooms
+  - https://github.com/rpt09-mulder/reviews
+  - https://github.com/rpt09-mulder/booking
 
 ## Table of Contents
 
