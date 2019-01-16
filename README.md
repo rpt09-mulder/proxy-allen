@@ -1,39 +1,46 @@
-# Project Name
+# Project
 
-> Project description
+> Simple proxy to practice Service Oriented Architecture by building an AirBnB-Clone consisting of 4 services
 
 ## Related Projects
 
-  - https://github.com/rpt09-mulder/gallery
-  - https://github.com/rpt09-mulder/rooms
-  - https://github.com/rpt09-mulder/reviews
-  - https://github.com/rpt09-mulder/booking
+- [Rooms](https://github.com/rpt09-mulder/rooms)
+- [Gallery](https://github.com/rpt09-mulder/gallery)
+- [Booking](https://github.com/rpt09-mulder/booking)
+- [Reviews](https://github.com/rpt09-mulder/reviews)
 
 ## Table of Contents
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions
+1. [Requirements](#Requirements)
+1. [Installation](#Installation)
+1. [Example](#Example)
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
+- Node v10.12.0
+- MongoDB v4.0.3
+- NPM v6.5.0
 
-- Node 6.13.0
-- etc
+## Installation
 
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
+After cloning the project, go to the root directory then install all required dependencies by running
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
+then start the server by running
+
+```sh
+npm start
+```
+
+finally, on your browser go to http://localhost:3000
+
+## Example
+
+The REST API will display a valid item page for all `IDs` between `1` to `100`.
+
+For example, `http://localhost:3000/1` to `http://localhost:3000/100`
+
+![](example.gif)

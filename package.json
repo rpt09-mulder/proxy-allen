@@ -1,9 +1,9 @@
 {
   "name": "proxy",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "version": "1.0.0",
+  "description": "Proxy to load four services for AirBnB clone project",
+  "author": "Allen Hsieh",
+  "license": "MIT",
   "engines": {
     "node": ">=10.13.0"
   },
