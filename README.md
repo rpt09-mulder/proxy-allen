@@ -22,9 +22,7 @@
 - NPM v6.5.0
 
 ## Installation
-PLEASE NOTE: You must clone and start all [four services](#Related-Projects) before installing and starting this proxy.
-
-You must also go to the index.html files and ensure all bundles are direct to the local host
+*PLEASE NOTE:* You must clone and start all [four services](#Related-Projects) before installing and starting this proxy.
 
 Go to the root directory then install all required dependencies by running
 
